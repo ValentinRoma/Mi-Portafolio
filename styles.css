@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    background-color: #904caf;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+h2 {
+    color: #333;
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+article {
+    max-width: 800px; /* Ajusta el contenedor al tamaño deseado */
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Añade espacio interno */
+    text-align: center; /* Centra el contenido del texto */
+    background-color: #fff; /* Opcional: fondo blanco */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+}
+
+img {
+    max-width: 100%; /* Evita que el GIF sea más ancho que el contenedor */
+    height: auto; /* Mantiene las proporciones originales */
+    display: block; /* Elimina espacios adicionales */
+    margin: 0 auto; /* Centra horizontalmente el GIF */
+}
+
+
+#proyectos-titulo {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px; /* Espaciado superior opcional */
+    font-size: 24px; /* Tamaño de fuente opcional */
+    color: #333; /* Color opcional */
+}
+
+.gif {
+    margin-bottom: 30px; /* Ajusta el margen inferior */
+    display: block;      /* Asegura que la imagen sea tratada como bloque */
+    max-width: 100%;     /* Escala la imagen correctamente */
+    height: auto;
+}
